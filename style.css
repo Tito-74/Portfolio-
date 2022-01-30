@@ -148,7 +148,6 @@ hr{
   width: 20%;
   text-align: center;
   margin-left: 40%;
-  /* justify-content: center; */
 }
 footer{
   text-align: center;
@@ -156,5 +155,10 @@ footer{
   padding: 2rem;
   background-color: #f2faf7;
   
+
+}
+.icons{
+  margin-top:3rem;
+  font-size:24px;
 
 }
