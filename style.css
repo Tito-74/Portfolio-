@@ -11,7 +11,7 @@ a{
 }
 section{
   width: 100%;
-  height:100vh;
+  height:120vh;
   background-image:url("./Assets/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,7 +52,7 @@ img{
 }
 .service-container{
   background-color:white;
-  margin-top:1rem;
+  margin-top:10rem;
   padding-left:3rem;
   padding: 4rem 9rem 2rem 4rem;
   padding-right:3rem;
@@ -104,12 +104,22 @@ img{
 .content-A,.content-B, .content-C {
   height: 250px;
   border-radius: 10px;
-  padding: 6rem;
+  padding: 5rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
   opacity: 60%;
 
+}
+.card a{
+  text-decoration: none;
+  color: black;
+}
+.card-body{
+  /* border: 3px solid black; */
+  background-color:rgb(77, 240, 164);
+  box-shadow: rgb(113, 255, 85) 0px 0px 0px 3px, rgb(249, 252, 249) 0px 0px 0px 6px, rgb(245, 10, 10) 0px 0px 0px 9px, rgb(250, 248, 247) 0px 0px 0px 12px, rgb(17, 16, 16) 0px 0px 0px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
 }
 .content-A{
   background-image: url(/Assets/demo_pro_1.png);
@@ -123,7 +133,28 @@ img{
 background-image: url(/Assets/demo_pro_3.jpg);
   
 }
+.contact{
+  text-align: center;
+  height:250px;
+  padding: 2rem;
+  background-color: black;
+  color: #fff;
+}
 .intro{
   padding: 3rem;
   margin-top: 4rem;
+}
+hr{
+  width: 20%;
+  text-align: center;
+  margin-left: 40%;
+  /* justify-content: center; */
+}
+footer{
+  text-align: center;
+  height:250px;
+  padding: 2rem;
+  background-color: #f2faf7;
+  
+
 }
