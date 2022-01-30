@@ -67,6 +67,7 @@ img{
   display: flex;
   color: #fff;
   justify-content:space-around;
+  margin-top: 30px;
 
 }
 .content-box{
@@ -100,12 +101,27 @@ img{
   flex-wrap: wrap;
   justify-content:space-around;
 }
-.content-A{
+.content-A,.content-B, .content-C {
   height: 250px;
   border-radius: 10px;
   padding: 6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  opacity: 60%;
 
+}
+.content-A{
+  background-image: url(/Assets/demo_pro_1.png);
 
+}
+.content-B{
+  background-image: url(/Assets/demo_pro_2.jpg);
+  
+}
+.content-C{
+background-image: url(/Assets/demo_pro_3.jpg);
+  
 }
 .intro{
   padding: 3rem;
