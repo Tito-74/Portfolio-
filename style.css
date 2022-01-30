@@ -244,3 +244,64 @@ footer{
 
 }
 
+/* Responsiveness  for screen 992*/
+@media screen and (max-width: 992px) {
+  section{
+    color:Blue;
+    height: 95vh;
+  }
+  .intro{
+    padding: 1rem;
+    margin-top: 0rem;
+  }
+  .row img{
+    width: 45%;
+    margin-top: 0;
+    margin-left: 7rem;
+  }
+  .about-container{
+    width: 100%;
+    height:55vh;   
+    margin-left: 0;
+  }
+  .about-container .row{
+    flex-direction: column-reverse;
+  }
+  .about-me h3 p{
+    margin:-100px;
+    margin-top: -5px;
+    
+
+  }
+  #about-img, .about-button > button:nth-child(1) {
+   visibility: hidden;
+  
+  }
+  .about-button > button:nth-child(2) {
+    margin: -22px;
+    background-color: #777;
+
+  }
+  .service-container{
+    margin-top:15rem;
+    text-align: center;
+  }
+  .sevice-box{
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .content-box{
+    width:80%;
+    margin-bottom: 2rem;
+  }
+  .project-container{
+    background-color:#dce3e0;
+    /* padding-left:1.5rem; */
+    padding: 4rem 9rem 2rem 4rem;
+    /* padding-right:1.5rem; */
+    text-align: center;
+  
+  }
+
+}
